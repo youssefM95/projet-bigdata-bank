@@ -1,0 +1,4 @@
+#!/bin/bash
+hdfs dfs -cat /output_max_income/part-r-00000
+hdfs dfs -cat /output_min_income/part-r-00000
+hdfs dfs -cat /output_age_count/part-r-00000

@@ -1,0 +1,4 @@
+#!/bin/bash
+hdfs dfs -mkdir /input_folder
+hdfs dfs -put bank-data.csv /input_folder/
+

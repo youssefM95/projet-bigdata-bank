@@ -1,0 +1,4 @@
+#!/bin/bash
+hadoop jar bank.jar projet_bigdata_bank.MaxIncome /input_folder/bank-data.csv /output_max_income
+hadoop jar bank.jar projet_bigdata_bank.MinIncome /input_folder/bank-data.csv /output_min_income
+hadoop jar bank.jar projet_bigdata_bank.AgeCount /input_folder/bank-data.csv /output_age_count
